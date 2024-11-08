@@ -1,0 +1,7 @@
+node_embed.dialog:
+  path: '/node-embed/dialog/{filter_format}'
+  defaults:
+    _form: '\Drupal\node_embed\Form\CKEditorNodeEmbedDialog'
+    _title: 'Add link'
+  requirements:
+    _entity_access: 'filter_format.use'
